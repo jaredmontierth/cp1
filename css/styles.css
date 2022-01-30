@@ -1,0 +1,105 @@
+.portfolio {
+    display: grid;
+    grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+p {
+  margin-left: 10px;
+}
+
+h1, h2, h3, h6 {
+  margin-left: 10px;
+}
+
+.news img {
+  width: 48%;
+  padding: 10px;
+}
+
+.frontpic {
+  width: 100%;
+
+}
+.aboutpic {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+.statspic {
+  width: 50%;
+  padding: 10px;
+}
+
+.navbar-brand {
+  color: #e3b600 !important;
+}
+
+.nav-link {
+  color: #e3b600 !important;
+}
+
+.review p {
+  width: 50%;
+  margin: auto auto;
+  font-style: italic;
+}
+
+.sid {
+  width: 60%;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.main {
+  align-self: center;
+  align-items: center;
+}
+
+.catchphrase p {
+  text-align: center;
+  width: 100%;
+  margin: auto auto;
+
+}
+
+.lastgame  {
+  margin-left: 5px;
+}
+
+.bio {
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+h1 {
+  margin-left: 10px;
+}
+
+.pic img {
+  width: 100%;
+}
+
+.footer {
+  clear: left;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-portfolio {
+  clear: left;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+/* * {
+  background-color: #FF0000
+}
+*/
